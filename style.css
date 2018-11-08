@@ -1,0 +1,50 @@
+body{
+	background-image: url(starbg.png);
+    background-attachment: fixed;
+  	font-family: 'Roboto Mono', monospace;
+  	text-align:center;
+}
+
+/*this is to change highlight color*/
+/*since i noticed doubleclicking often highlights text*/
+/*and the default highlight color is so ugly lol*/
+ ::selection {
+ background: #f0ebe3;
+ color: #e7a25a;
+ }
+  
+ ::-moz-selection {
+ background: #f0ebe3;
+ color: #e7a25a;
+ }
+
+button,input{
+	padding:5px;
+	margin-bottom:10px;
+}
+
+h1{
+	font-size:100px;
+	margin:0px;
+}
+.contain{
+	width:400px;
+	margin:auto;
+	margin-bottom:50px;
+}
+
+.list{
+	background-color:white;
+	padding:10px;
+	border-radius:8px;
+	box-shadow: 15px 15px rgba(0, 0, 0, .3);
+}
+
+.cross{
+	color:rgba(0, 0, 0, .3);
+	text-decoration: line-through;
+}
+
+.hey{
+	color:#e7a25a;
+}
